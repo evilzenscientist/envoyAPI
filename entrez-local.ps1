@@ -33,15 +33,15 @@ $auth_token = $token_response.content
 # set some urls
 $e_login_url = "https://enlighten.enphaseenergy.com/login/login.json"
 $e_token_url = "https://entrez.enphaseenergy.com/tokens"
-$e_local_envoy = "https://10.50.0.1"
+$e_local_envoy = "https://10.x.x.x"
 
 
 # set some secrets/creds
 # usually we would read these out of the Key Vault
-$e_username = "martin@buckleymail.com"
-$e_password = "d-B&q8%kN<b>"
-$e_site = "400SEDarst"
-$e_serNum = "202150088016"
+$e_username = "email@foo.com"
+$e_password = "ComplexPassword123!"
+$e_site = "sitename"
+$e_serNum = "numericsitecode"
 
 # set up login and token POST body
 $login_body = @{
